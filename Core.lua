@@ -56,7 +56,7 @@ if getgenv().Flags then
 end
 
 repeat
-	Luna = loadstring(game:HttpGet("https://github.com/aw4e/Cheese/raw/dev/Luna.lua"))
+	Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/xnkq/AC/refs/heads/main/Luna.lua"))
 	
 	if Luna then
 		Luna = Luna()
