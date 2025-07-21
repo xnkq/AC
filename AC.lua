@@ -11,7 +11,7 @@ v0.0.1a
 ]]
 
 do
-  local Core = loadstring(game:HttpGet("https://github.com/aw4e/Cheese/raw/dev/Core.lua"))
+  local Core = loadstring(game:HttpGet("https://raw.githubusercontent.com/xnkq/AC/refs/heads/main/Core.lua"))
   if not Core then return warn("Failed to load the Cheese Core") end
   Core()
 end
@@ -78,7 +78,7 @@ Player.OnTeleport:Connect(function()
 		queue_on_teleport([[
       task.spawn(function()
         task.wait(5)
-        loadstring(game:HttpGet("https://github.com/aw4e/Cheese/raw/dev/Loader.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xnkq/AC/refs/heads/main/Loader.lua"))()
       end)
     ]])
 	end
